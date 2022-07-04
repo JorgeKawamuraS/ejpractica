@@ -1,0 +1,10 @@
+version: "3"
+services:
+  ejPractica:
+    image: ejpractice:latest
+    ports:
+      - 8891:8891
+    networks:
+      - kawamura
+networks:
+  kawamura:
